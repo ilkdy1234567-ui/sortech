@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@RequestMapping("/api//summary")
+@RequestMapping("/api/summary")
 @RequiredArgsConstructor
 @CrossOrigin(origins = "http://localhost:5173")
 public class SummaryController {

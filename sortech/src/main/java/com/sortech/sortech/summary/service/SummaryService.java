@@ -22,7 +22,7 @@ public class SummaryService {
     private final ObjectMapper objectMapper;
 
     // 재미나이 api key 가져오기
-    private final String geminiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=";
+    private final String geminiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=";
 
     public SummaryService(@Value("${gemini.api.key}") String apiKey, ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
